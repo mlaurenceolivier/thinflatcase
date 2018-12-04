@@ -1,2 +1,2 @@
 # thinflatcase
-Thin Flat Case (Oath Portfolio)
+Thin Flat Case: Portfolio of Michael Olivier
