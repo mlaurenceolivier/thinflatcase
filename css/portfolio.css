@@ -12,6 +12,9 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem; }
+  .content-section img {
+    max-width: 100%;
+    max-height: 100%; }
 
 .content-section-heading h2 {
   font-size: 3rem; }
@@ -73,6 +76,10 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+  .masthead.athena {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/athena_ui/athena-masthead.jpg"); }
+  .masthead.pnr {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pnr/pnr-masthead.jpg"); }
   .masthead h1 {
     font-size: 4rem;
     margin: 0;
@@ -220,20 +227,20 @@ h6 {
         clip-path: inset(0px); }
         .portfolio-item .caption .caption-content {
           transition: opacity 0.25s;
-          margin-left: 5rem;
-          margin-right: 5rem;
-          margin-bottom: 5rem; }
+          margin-left: 3rem;
+          margin-right: 3rem;
+          margin-bottom: 3rem; }
       .portfolio-item img {
         -webkit-transition: -webkit-clip-path 0.25s ease-out;
         -webkit-clip-path: inset(-1px);
         clip-path: inset(-1px); }
       .portfolio-item:hover img {
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem); }
+        -webkit-clip-path: inset(0.5rem 2rem);
+        clip-path: inset(0.5rem 2rem); }
       .portfolio-item:hover .caption {
         background-color: rgba(214, 51, 108, 0.9);
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem); } }
+        -webkit-clip-path: inset(0.5rem 2rem);
+        clip-path: inset(0.5rem 2rem); } }
 
 footer.footer {
   padding-top: 5rem;

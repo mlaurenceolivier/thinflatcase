@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thin Flat Case - Portfolio of Michael Olivier</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="index.html">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#services">Skills</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#portfolio">Projects</a>
+          <ul>
+	          	<li class="sidebar-nav-item">
+	          	<a class="js-scroll-trigger" href="athena.html">Athena CMS</a>
+	          	</li>
+	          	<li class="sidebar-nav-item">
+	          	<a class="js-scroll-trigger" href="pnr-styleguide.html">PNR Style Guide</a>
+	          	</li>
+	          	<li class="sidebar-nav-item">
+	          	<a class="js-scroll-trigger" href="oath.html">Oath Publishing</a>
+	          	</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex athena">
+      <div class="container text-center my-auto text-faded">
+        <h1 class="mb-1">Athena CMS</h1>
+        <h5 class="mb-5">
+          <em>A Content Management System for the PNR Ecosystem</em>
+        </h5>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#athena"><i class="fas fa-arrow-down"></i></a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- BEGIN MAIN CONTENT -->
+	
+	<div class="content-section container" id="athena">
+	
+		
+		<div class="row justify-content-center ">
+			<div class="col-lg-10 text-center h5"><b>Athena Content Management System</b></div>
+			<div class="col-lg-12 text-center display-4 mb-5">"It needs to function the same...but better."</div>
+			<div class="col-lg-10 text-center">
+			  <p class="h6 mb-5"><b>Role:</b> Lead Designer | <b>When:</b> 2018 | <b>Tools:</b> Sketch/Invision App</p>
+			</div>
+			<div class="col-lg-10 text-center"><hr></div>
+			<div class="case-slideshow col-lg-10">
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				  	<div class="carousel-inner">
+					    <div class="carousel-item active">
+					      	<img class="d-block w-100" src="img/athena_ui/archive.png" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      	<img class="d-block w-100" src="img/athena_ui/current.png" alt="Second slide">
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-10 row mx-auto">
+				<p>After working on the Pick-n-Roll Style Guide with another designer, we decided to test out the new PnR Style Guide’s applicability to a new product. Enter Athena CMS.</p>
+			  <p>Originally built to power Huffington Post’s content contributors, Athena was going to move under the Pick-n-Roll suite and would be used by all content contributors. We needed to keep most of the overall functionality with key features specifically for either legacy Aol contributors or Yahoo contributors.</p>
+			  <p>We couldn’t stick with the original UI as it was purely branded as Huffington Post so we felt this would be a good testing ground to apply the PnR Style Guide and see if we could break it.</p>
+			  <h6>WHAT’S THE GOAL HERE?</h6>
+			  <p>At first, I needed to run through what elements and features would be retained and how I could best organize those elements and features to make for an easier to use, cleaner UI. I worked with the existing PM on the project to determine what would stay and what would go.</p>
+
+			  <div class="col-lg-10 mx-auto mb-5">
+				  <img class="image-fluid" src="img/athena_ui/HuffPostAthena_UI.png">
+				</div>
+
+			  <p>Once I had a solid list of MVPs for the first iteration, I created a new Sketch file, linked up the library I had created from our PnR Style Guide and got to work.</p>
+			  <h6>THE SAME, BUT DIFFERENT</h6>
+			  <p>The first problem I ran into was that PnR was built on a one-column layout system. I needed to use the same basic 12-column grid (minus the left-nav) and generate a concise way to handle 3-columns of content. The easiest method was to simply add the main content area in the middle 6 columns and then one each of 3 columns on either side.</p>
+			</div>
+			<div class="row  col-lg-12 mb-5 mt-3">
+				<div class="col-lg-4"><img src="img/athena_ui/1440grid.png"></div>
+				<div class="col-lg-4"><img src="img/athena_ui/1440PNRgrid.png"></div>
+				<div class="col-lg-4"><img src="img/athena_ui/1440grid3-col.png"></div>
+			</div>
+			<div class=" col-lg-10">
+				<p>One way I decided to divide the UI into 3 parts was to: </p>
+				<ul>
+					<li>Content specific to the creator would be on the left (creator’s name, who’s currently editing the content and internal editor comments)</li>
+					<li>Content creation all took place in the main column</li>
+					<li>Meta-level content (URL, preview image, external credits, etc.) would be on the right along with the Publish and Schedule Post buttons</li>
+					<li>This layout worked well in testing but required a new set of form fields, buttons and elements to fit in the new 3- and 6-column widths. I got to work</li>
+				</ul>
+				<p><img src="img/athena_ui/pnr_styleguide.png"></p>
+				<p>With all of the new elements created as symbols, I was easily able to iterate some various mocks of the most basic types of layouts for the new product.</p>
+				<p>
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					  	<div class="carousel-inner">
+						    <div class="carousel-item active">
+						      	<img class="d-block w-100" src="img/athena_ui/1-desktop.png" alt="First slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="img/athena_ui/2-adding%20preview%20image.png" alt="Second slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="img/athena_ui/3-collection%20hover%20%26%20edit.png" alt="Third slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="img/athena_ui/4-add%20collection%20modal.png" alt="Fourth slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="img/athena_ui/5-moving%20content%20section.png" alt="Fifth slide">
+						    </div>
+						    <div class="carousel-item">
+						      	<img class="d-block w-100" src="img/athena_ui/6-delete%20text%20container%20modal.png" alt="Sixth slide">
+						    </div>
+					  	</div>
+					</div>
+				</p>
+				<p>Now that the basic UI was in place and workable, the focus moved to the UX improvements.</p>
+				<p>Not being familiar with the original product helped me find the gaps in their current work flow and easily determine improvements to the UX. There were quite a few simple things that began to jump out:</p>
+				<ul>
+					<li>Creating and editing content blocks with one click</li>
+					<li>Editing existing content by clicking into the content instead of clicking icons/menus</li>
+					<li>Moving blocks of content around with a simple drag-n-drop function instead of clicking icons, opening modals, etc.</li>
+					<li>Deleting content blocks with a simple icon instead of navigating menus</li>
+				</ul>
+				<p class="text-center">• • •</p>
+				<p><em>The new Athena product has been shipped to engineers for development and has soft launched to a select group of power users.</em></p>
+			</div>
+		</div>
+	</div>	          
+	
+	<!-- END MAIN CONTENT -->
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://dribbble.com/weepapa">
+              <i class="icon-social-dribbble"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/weepapa/">
+              <i class="icon-social-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/mlaurenceolivier/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Thin Flat Case 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>

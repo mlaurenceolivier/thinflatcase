@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thin Flat Case - Portfolio of Michael Olivier</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="index.html">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#services">Skills</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="index.html#portfolio">Projects</a>
+          <ul>
+	          	<li class="sidebar-nav-item">
+	          	<a class="js-scroll-trigger" href="athena.html">Athena CMS</a>
+	          	</li>
+	          	<li class="sidebar-nav-item">
+	          	<a class="js-scroll-trigger" href="pnr-styleguide.html">PNR Style Guide</a>
+	          	</li>
+	          	<li class="sidebar-nav-item">
+	          	<a class="js-scroll-trigger" href="oath.html">Oath Publishing</a>
+	          	</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex pnr">
+      <div class="container text-center my-auto text-faded">
+        <h1 class="mb-1">PNR Styleguide</h1>
+        <h5 class="mb-5">
+          <em>A comprehensive Sketch UI Library for Pick•n•Roll</em>
+        </h5>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#athena"><i class="fas fa-arrow-down"></i></a>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- BEGIN MAIN CONTENT -->
+	
+	<div class="content-section container" id="athena">
+	
+		
+		<div class="row justify-content-center ">
+			<div class="col-lg-10 text-center h5"><b>Pick•N•Roll Style Guide</b></div>
+			<div class="col-lg-12 text-center display-4 mb-5">"We need to get this monster back in the box."</div>
+			<div class="col-lg-10 text-center">
+			  <p class="h6 mb-5"><b>Role:</b> Senior Designer (UI/UX)
+ | <b>When:</b> 2018 | <b>Tools:</b> Sketch/Invision App</p>
+			</div>
+			<div class="col-lg-10 text-center"><hr></div>
+			<div class="col-lg-10 row mx-auto">
+				<p>During the last merger (Aol + Yahoo) in late 2017, we merged our team with a team of Yahoo engineers who had built up Pick-n-Roll over the years. What was originally meant as a one-stop shop had degenerated into a bloated bit of SaaS and the UI/UX had suffered greatly. Luckily, they had previously brought on a brilliant designer (Aileen B.) who had started to right the ship.</p>
+				<p>I was lucky enough to get to jump right in with Aileen and help out. We realized quickly that doubling the size of the design team (from 1 to 2) was a huge improvement, but there was a better way to divide and conquer. She had been working on PnR for over a year and had nearly wrapped up the general UI/UX improvements. What we really needed was a centralized library from which to build out future improvements.</p>
+				<p>During the last merger (Aol + Yahoo) in late 2017, we merged our team with a team of Yahoo engineers who had built up Pick-n-Roll over the years. What was originally meant as a one-stop shop had degenerated into a bloated bit of SaaS and the UI/UX had suffered greatly. Luckily, they had previously brought on a brilliant designer (Aileen B.) who had started to right the ship.</p>
+				<p>I was lucky enough to get to jump right in with Aileen and help out. We realized quickly that doubling the size of the design team (from 1 to 2) was a huge improvement, but there was a better way to divide and conquer. She had been working on PnR for over a year and had nearly wrapped up the general UX improvements. What we really needed was a centralized library from which to build out future UI improvements.</p>
+			</div>
+			<div class="case-content col-lg-6 row mb-3 mt-3">
+				<p><img src="img/pnr/library.png"></p>
+			</div>
+			<div class="case-content col-lg-10">
+				<p>I started with the latest mocks to ensure that we were using elements that had already gone to development. Quickly, we realized that we needed to standardize a lot of things (button sizes, border-radii, form fields heights, etc.), so I went through as many mocks as possible to determine which were the correct sizes. After several meetings, we determined to base everything on a basis of 12 (36px height for form fields, 24px of padding, etc.).
+With this as our basis, I recreated all elements and generated new symbols for everything:</p>
+				<p>
+				<p><img src="img/pnr/buttons.png"></p>
+				<p>One of the first tasks we decided to apply this to was updating the way that tables were displayed in search results and the like. As PNR had been rebuilt on top of itself several times, the code was quite complex, and unnecessarily so. Working in tandem with a front-end developer, I decided to try and clean up the basic table code using our new styleguide as the basis for the UI.</p>
+			</div>
+			<div class="case-content col-lg-6 row mb-3 mt-3">
+				<p><img src="img/pnr/terminal.png"></p>
+			</div>
+			<div class="case-content col-lg-10">
+				<p>I fired up my local dev environment, got all of the Git repo access issues worked out, and began rewriting years of bloated CSS (in LESS). What should have taken a few days turned into a few weeks as it was clear that ALL of the original CSS needed to be rewritten to better accommodate the layouts.</p>
+				<p>There were some minor issues (such as being unable to upgrade from Twitter Bootstrap 3.x to 4.x) and setbacks. After a few false starts, I got everything laid out utilizing CSS’s FlexBox and it worked perfectly. A few pushes of code and a merging of branches, and we had our first look at the new design.</p>
+			</div>
+			<div class="case-content col-lg-6 row mb-3 mt-3">
+				<p><img src="img/pnr/PNR_advsearch_search.png"></p>
+			</div>
+			<div class="case-content col-lg-8">
+				<p>Pick-n-Roll is still in development is and currently going through a code base rewrite.</p>
+			</div>
+			<div class="row case-content col-lg-12 mb-3 mt-3">
+				<div class="col-lg-4"><img src="img/pnr/typography.png"></div>
+				<div class="col-lg-4"><img src="img/pnr/actions.png"></div>
+				<div class="col-lg-4"><img src="img/pnr/form-fields.png"></div>
+			</div>
+		</div>
+	</div>	          
+	
+	<!-- END MAIN CONTENT -->
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://dribbble.com/weepapa">
+              <i class="icon-social-dribbble"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/weepapa/">
+              <i class="icon-social-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/mlaurenceolivier/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Thin Flat Case 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>
