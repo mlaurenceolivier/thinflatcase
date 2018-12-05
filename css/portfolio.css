@@ -3,11 +3,16 @@ html {
   width: 100%;
   height: 100%; }
 
+.bungee {
+  font-family: 'Bungee', cursive;
+  font-weight: normal; }
+
 body {
   font-family: 'Source Sans Pro'; }
 
 .btn-xl {
-  padding: 1.25rem 2.5rem; }
+  padding: 1.5rem 2rem;
+  border-radius: 50%; }
 
 .content-section {
   padding-top: 7.5rem;
@@ -75,10 +80,12 @@ h6 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover !important; }
   .masthead.athena {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/athena_ui/athena-masthead.jpg"); }
   .masthead.pnr {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pnr/pnr-masthead.jpg"); }
+  .masthead.oath {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pnr/pnr-masthead.jpg"); }
   .masthead h1 {
     font-size: 4rem;

@@ -4,13 +4,19 @@ html {
   height: 100%;
 }
 
+.bungee {
+	font-family: 'Bungee', cursive;
+	font-weight: normal;
+}
+
 body {
   @include body-font;
 }
 
 // Custom Button Size
 .btn-xl {
-  padding: 1.25rem 2.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 50%;
 }
 
 // Content Section
